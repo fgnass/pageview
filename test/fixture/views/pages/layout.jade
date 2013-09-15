@@ -1,0 +1,22 @@
+!!! 5
+html
+  body
+    ul
+      li
+        a(href='/') Index
+      li
+        a(href='/page') Page
+      li
+        a(href='/nested') Nested Index
+      li
+        a(href='/nested/page') Nested Page
+      li
+        a(href='/nested/deep') Nested Folder
+
+    block content
+
+    dl
+      dt path
+      dd=path
+      dt url
+      dd=url

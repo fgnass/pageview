@@ -1,0 +1,25 @@
+{
+  "name": "pageview",
+  "version": "0.0.1",
+  "author": "Felix Gnass",
+  "description": "",
+  "keywords": [
+    "express",
+    "static"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgnass/pageview.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "express": "~3.4.0",
+    "jade": "~0.35.0",
+    "mocha": "~1.12.1",
+    "supertest": "~0.7.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
