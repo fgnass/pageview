@@ -2,7 +2,7 @@
   "name": "pageview",
   "version": "0.0.1",
   "author": "Felix Gnass",
-  "description": "",
+  "description": "Express middleware to use views for static pages",
   "keywords": [
     "express",
     "static"
